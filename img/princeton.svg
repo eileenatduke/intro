@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80">
+  <g>
+    <!-- Tiger shield mark -->
+    <path d="M30 12 L52 12 L58 26 L52 70 L30 70 L24 26 Z" fill="#E77500" stroke="#000" stroke-width="1.5"/>
+    <text x="41" y="48" text-anchor="middle" fill="#000" font-family="Georgia, serif" font-weight="700" font-size="22" letter-spacing="-1">P</text>
+  </g>
+  <text x="78" y="50" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="32" fill="#000" letter-spacing="0.5">PRINCETON</text>
+</svg>

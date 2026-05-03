@@ -1,0 +1,846 @@
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<meta http-equiv="x-ua-compatible" content="ie=edge" />
+<link rel="icon" href="/themes/custom/brand/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="canonical" href="https://brand.mit.edu/node/34" />
+<link rel="shortlink" href="https://brand.mit.edu/node/34" />
+
+		<title>Home | MIT Brand Guide</title>
+		<link rel="stylesheet" media="all" href="/sites/default/files/css/css_R_QidnuLnHI_JbZQAijsBc_dNJpf9Q3DmGdYGGKH5wU.css?delta=0&amp;language=en&amp;theme=brand&amp;include=eJxFykEOgDAIAMEPVXlSAynWJlgI0ER_rzePO1niTPbKt2lwq8eQLwM6T3aUQqoZ6WiV0H0oHOpXIcfZoIsSyhb5yJi9GDr27zwDmi9D2X_Z17RFMuLkVuKJ5AsIg192EzHn" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_-iasJgBZGVLB-ZiAMUU5hB7KFw0uOERGUbPTvxYNREM.css?delta=1&amp;language=en&amp;theme=brand&amp;include=eJxFykEOgDAIAMEPVXlSAynWJlgI0ER_rzePO1niTPbKt2lwq8eQLwM6T3aUQqoZ6WiV0H0oHOpXIcfZoIsSyhb5yJi9GDr27zwDmi9D2X_Z17RFMuLkVuKJ5AsIg192EzHn" />
+<link rel="stylesheet" media="print" href="/sites/default/files/css/css_Sqb1Eq72ESukPBQrcReoCOJSGY-U559L409UvFS26cY.css?delta=2&amp;language=en&amp;theme=brand&amp;include=eJxFykEOgDAIAMEPVXlSAynWJlgI0ER_rzePO1niTPbKt2lwq8eQLwM6T3aUQqoZ6WiV0H0oHOpXIcfZoIsSyhb5yJi9GDr27zwDmi9D2X_Z17RFMuLkVuKJ5AsIg192EzHn" />
+
+		
+
+		<!-- Hotjar Tracking Code for Brand Guide (new) -->
+		<script>
+		(function(h,o,t,j,a,r){
+		h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+		h._hjSettings={hjid:3650383,hjsv:6};
+		a=o.getElementsByTagName('head')[0];
+		r=o.createElement('script');r.async=1;
+		r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+		a.appendChild(r);
+		})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+		</script>
+
+		<!-- Google Tag Manager -->
+		<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer','GTM-WD6VRL6M');</script>
+		<!-- End Google Tag Manager -->
+	</head>
+
+	<body class="layout-no-sidebars page-node-34 path-frontpage node--type-homepage">
+		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WD6VRL6M"
+		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
+
+		
+		  <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div id="page-wrapper">
+	<div id="page">
+		<header id="header" class="header" aria-label="Site header">
+			<a class="skip-link skip-link sr-only sr-only-focusable" href="#main-content">Skip to content</a>
+
+							<div class="header__desktop-nav-wrapper">
+					<div class="header__desktop-nav desktop-nav" tabindex="-1">
+												<a href="https://mit.edu" class="icon icon-logo desktop-nav__icon-logo"><span class="sr-only">MIT</span></a>
+												<a class="desktop-nav__brand" href="/" rel="home">
+							Brand Guide
+						</a>
+
+												<div class="header__main-nav-desktop">
+							<nav id="main-nav-desktop" class="header-nav" aria-label="main navigation desktop">
+									
+
+
+
+
+	
+	<ul class="navbar-nav header-nav__list header-nav__list--1">
+		
+				
+							 
+
+			
+							<li class="header-nav__item header-nav__item--1">
+					<a href="/brand-architecture">Brand Architecture</a>
+				</li>
+					
+				
+							 
+
+			
+							<li class="header-nav__item header-nav__item--1 has-submenu">
+					<a href="/logos-marks">Logos &amp; Marks</a>
+
+					<button aria-haspopup="true" aria-expanded="false" aria-label="show submenu for Logos &amp; Marks"></button>
+
+						
+	<ul class="header-nav__list header-nav__list--2">
+					
+							<li class="header-nav__item header-nav__item--2">
+					<a href="/logos-marks/mit-logo">MIT Logo</a>
+				</li>
+								
+							<li class="header-nav__item header-nav__item--2">
+					<a href="/logos-marks/logo-lock-ups">Logo Lock-Ups</a>
+				</li>
+								
+							<li class="header-nav__item header-nav__item--2">
+					<a href="/logos-marks/social-media-logos">Social Media Logos</a>
+				</li>
+								
+							<li class="header-nav__item header-nav__item--2">
+					<a href="/logos-marks/mit-seal">MIT Seal</a>
+				</li>
+								
+							<li class="header-nav__item header-nav__item--2">
+					<a href="/logos-marks/tim-beaver">Tim the Beaver</a>
+				</li>
+						</ul>
+
+				</li>
+					
+				
+							 
+
+			
+							<li class="header-nav__item header-nav__item--1">
+					<a href="/color">Color</a>
+				</li>
+					
+				
+							 
+
+			
+							<li class="header-nav__item header-nav__item--1">
+					<a href="/typography">Typography</a>
+				</li>
+					
+				
+							 
+
+			
+							<li class="header-nav__item header-nav__item--1 has-submenu">
+					<a href="/applying-brand">Applying the Brand</a>
+
+					<button aria-haspopup="true" aria-expanded="false" aria-label="show submenu for Applying the Brand"></button>
+
+						
+	<ul class="header-nav__list header-nav__list--2">
+					
+							<li class="header-nav__item header-nav__item--2">
+					<a href="/applying-brand/gallery">Gallery</a>
+				</li>
+								
+							<li class="header-nav__item header-nav__item--2">
+					<a href="/applying-brand/do-dont">Do/Don&#039;t</a>
+				</li>
+								
+							<li class="header-nav__item header-nav__item--2">
+					<a href="/applying-brand/templates">Templates</a>
+				</li>
+								
+							<li class="header-nav__item header-nav__item--2">
+					<a href="/applying-brand/branded-merchandise">Branded Merchandise</a>
+				</li>
+								
+							<li class="header-nav__item header-nav__item--2">
+					<a href="/applying-brand/photography">Photos &amp; Videos</a>
+				</li>
+						</ul>
+
+				</li>
+						</ul>
+
+
+
+
+
+								<div class="utility-nav">
+										
+
+	
+			<ul class="utility-nav__list">
+							
+				<li class="utility-nav__item">
+										
+																	
+					<a href="/downloads" data-drupal-link-system-path="downloads">Downloads<span class="icon-lock"></span></a>
+				</li>
+							
+				<li class="utility-nav__item">
+																
+					<a href="/faq" data-drupal-link-system-path="node/23">FAQ</a>
+				</li>
+							
+				<li class="utility-nav__item">
+																
+					<a href="/history" data-drupal-link-system-path="node/24">History</a>
+				</li>
+							
+				<li class="utility-nav__item">
+																
+					<a href="/contact" data-drupal-link-system-path="node/25">Contact</a>
+				</li>
+					</ul>
+	
+
+
+
+
+<div class="views-exposed-form bef-exposed-form block block-views block-views-exposed-filter-blocksite-search-page-1" data-drupal-selector="views-exposed-form-site-search-page-1" id="block-brand-exposedformsite-searchpage-1">
+	
+	
+	
+
+			<div class="content">
+			
+<form region="utility_nav_desktop" action="/search" method="get" id="views-exposed-form-site-search-page-1" accept-charset="UTF-8">
+  
+
+
+
+
+
+
+
+	<fieldset class="js-form-item js-form-type-textfield form-type-textfield js-form-item-search-keywords form-item-search-keywords">
+					<label for="edit-search-keywords">Search</label>
+		
+		
+			
+			
+			<input placeholder="Search" data-drupal-selector="edit-search-keywords" type="text" id="edit-search-keywords" name="search_keywords" value="" size="30" maxlength="128" class="form-control" />
+
+
+			
+		
+		
+		
+			</fieldset>
+
+
+			
+
+
+
+	<div class="js-form-item js-form-type-checkbox checkbox form-check js-form-item-downloads form-item-downloads">
+		
+		
+		
+		<input data-drupal-selector="edit-downloads" type="checkbox" id="edit-downloads" name="downloads" value="1" class="form-checkbox form-check-input">
+
+					<label  class="form-check-label" for="edit-downloads">
+				Search downloadable assets only
+			</label>
+		
+		
+		
+			</div>
+
+<div class="filter-actions">
+	<input data-drupal-selector="edit-submit-site-search" type="submit" id="edit-submit-site-search" value="Search" class="button js-form-submit form-submit btn btn-primary form-control" />
+
+</div>
+
+
+</form>
+
+		</div>
+	</div>
+
+
+								</div>
+							</nav>
+						</div>
+					</div>
+				</div>
+
+				<div id="navbar" class="header__navbar">
+					<div class="header__navbar-inner">
+												<div class="header__navbar-left">
+														<a class="mobile-nav__brand" href="/" rel="home">
+								Brand Guide
+							</a>
+						</div>
+
+												<div class="header__navbar-right">
+														<a href="https://mit.edu" class="icon icon-logo"><span class="sr-only">MIT</span></a>
+														<div class="header__mobile-toggle">
+								<button id="mobile-menu-toggle" class="nav-toggle" aria-expanded="false" aria-label="toggle primary navigation" aria-controls="mobile-menu-wrapper">
+									<span class="nav-toggle__line"></span>
+									<span class="nav-toggle__line"></span>
+									<span class="nav-toggle__line"></span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="mobile-menu-wrapper" class="header__mobile-nav">
+					<div class="header__mobile-nav-inner">
+												<div class="header__main-nav-mobile">
+							<nav id="main-nav-mobile" class="header-nav" aria-label="main navigation mobile">
+									
+
+
+
+
+	
+	<ul class="navbar-nav header-nav__list header-nav__list--1">
+		
+				
+							 
+
+			
+							<li class="header-nav__item header-nav__item--1">
+					<a href="/brand-architecture">Brand Architecture</a>
+				</li>
+					
+				
+							 
+
+			
+							<li class="header-nav__item header-nav__item--1 has-submenu">
+					<a href="/logos-marks">Logos &amp; Marks</a>
+
+					<button aria-haspopup="true" aria-expanded="false" aria-label="show submenu for Logos &amp; Marks"></button>
+
+						
+	<ul class="header-nav__list header-nav__list--2">
+					
+							<li class="header-nav__item header-nav__item--2">
+					<a href="/logos-marks/mit-logo">MIT Logo</a>
+				</li>
+								
+							<li class="header-nav__item header-nav__item--2">
+					<a href="/logos-marks/logo-lock-ups">Logo Lock-Ups</a>
+				</li>
+								
+							<li class="header-nav__item header-nav__item--2">
+					<a href="/logos-marks/social-media-logos">Social Media Logos</a>
+				</li>
+								
+							<li class="header-nav__item header-nav__item--2">
+					<a href="/logos-marks/mit-seal">MIT Seal</a>
+				</li>
+								
+							<li class="header-nav__item header-nav__item--2">
+					<a href="/logos-marks/tim-beaver">Tim the Beaver</a>
+				</li>
+						</ul>
+
+				</li>
+					
+				
+							 
+
+			
+							<li class="header-nav__item header-nav__item--1">
+					<a href="/color">Color</a>
+				</li>
+					
+				
+							 
+
+			
+							<li class="header-nav__item header-nav__item--1">
+					<a href="/typography">Typography</a>
+				</li>
+					
+				
+							 
+
+			
+							<li class="header-nav__item header-nav__item--1 has-submenu">
+					<a href="/applying-brand">Applying the Brand</a>
+
+					<button aria-haspopup="true" aria-expanded="false" aria-label="show submenu for Applying the Brand"></button>
+
+						
+	<ul class="header-nav__list header-nav__list--2">
+					
+							<li class="header-nav__item header-nav__item--2">
+					<a href="/applying-brand/gallery">Gallery</a>
+				</li>
+								
+							<li class="header-nav__item header-nav__item--2">
+					<a href="/applying-brand/do-dont">Do/Don&#039;t</a>
+				</li>
+								
+							<li class="header-nav__item header-nav__item--2">
+					<a href="/applying-brand/templates">Templates</a>
+				</li>
+								
+							<li class="header-nav__item header-nav__item--2">
+					<a href="/applying-brand/branded-merchandise">Branded Merchandise</a>
+				</li>
+								
+							<li class="header-nav__item header-nav__item--2">
+					<a href="/applying-brand/photography">Photos &amp; Videos</a>
+				</li>
+						</ul>
+
+				</li>
+						</ul>
+
+
+
+
+							</nav>
+						</div>
+
+												<div class="header__utility-nav-mobile">
+							<nav id="utility-nav-mobile" class="utility-nav utility-nav--mobile" aria-label="utility navigation mobile">
+									
+
+	
+			<ul class="utility-nav__list">
+							
+				<li class="utility-nav__item">
+										
+																	
+					<a href="/downloads" data-drupal-link-system-path="downloads">Downloads<span class="icon-lock"></span></a>
+				</li>
+							
+				<li class="utility-nav__item">
+																
+					<a href="/faq" data-drupal-link-system-path="node/23">FAQ</a>
+				</li>
+							
+				<li class="utility-nav__item">
+																
+					<a href="/history" data-drupal-link-system-path="node/24">History</a>
+				</li>
+							
+				<li class="utility-nav__item">
+																
+					<a href="/contact" data-drupal-link-system-path="node/25">Contact</a>
+				</li>
+					</ul>
+	
+
+
+
+
+<div class="views-exposed-form bef-exposed-form block block-views block-views-exposed-filter-blocksite-search-page-1" data-drupal-selector="views-exposed-form-site-search-page-1" id="block-brand-exposedformsite-searchpage-1-2">
+	
+	
+	
+
+			<div class="content">
+			
+<form region="utility_nav_mobile" action="/search" method="get" id="views-exposed-form-site-search-page-1" accept-charset="UTF-8">
+  
+
+
+
+
+
+
+
+	<fieldset class="js-form-item js-form-type-textfield form-type-textfield js-form-item-search-keywords form-item-search-keywords">
+					<label for="edit-search-keywords--2">Search</label>
+		
+		
+			
+			
+			<input placeholder="Search" data-drupal-selector="edit-search-keywords" type="text" id="edit-search-keywords--2" name="search_keywords" value="" size="30" maxlength="128" class="form-control" />
+
+
+			
+		
+		
+		
+			</fieldset>
+
+
+			
+
+
+
+	<div class="js-form-item js-form-type-checkbox checkbox form-check js-form-item-downloads form-item-downloads">
+		
+		
+		
+		<input data-drupal-selector="edit-downloads" type="checkbox" id="edit-downloads--2" name="downloads" value="1" class="form-checkbox form-check-input">
+
+					<label  class="form-check-label" for="edit-downloads--2">
+				Search downloadable assets only
+			</label>
+		
+		
+		
+			</div>
+
+<div class="filter-actions">
+	<input data-drupal-selector="edit-submit-site-search-2" type="submit" id="edit-submit-site-search--2" value="Search" class="button js-form-submit form-submit btn btn-primary form-control" />
+
+</div>
+
+
+</form>
+
+		</div>
+	</div>
+
+
+							</nav>
+						</div>
+					</div>
+				</div>
+					</header>
+
+		<div id="main-wrapper" class="layout-main-wrapper">
+							<main id="main" class="main">
+					
+					<a id="main-content" tabindex="-1"></a>
+
+											  <div data-drupal-messages-fallback class="hidden"></div>
+
+
+<div id="block-brand-mainpagecontent" class="block block-system block-system-main-block">
+	
+	
+	
+
+			<div class="content">
+			<h1 class="sr-only">Home</h1>
+
+<div class="homepage">
+	<div class="desktop-scroll-container d-none d-lg-block" aria-hidden="true">
+		<div class="desktop-scroll-container__inner">
+
+									<div id="pause-button" class="pause-button d-none d-lg-block"></div> 
+					
+
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-12">
+				<div class="homepage__header-wrap">
+											<div aria-hidden="true" class="homepage__video fullbleed-wrapper d-none d-lg-block">
+								<video  autoplay="autoplay" muted="muted" width="640" height="480">
+      <source  src="/sites/default/files/2024-02/MIT%20Brand%20Animation_R6.mp4" type="video/mp4" />
+  </video>
+
+
+						</div>
+					
+					<div class="homepage__hero-text d-lg-none">
+							<p>MIT’s brand communicates <em>our&nbsp;impact in the world.</em></p>
+
+					</div>
+
+											<div id="anchor" class="homepage__intro-text">
+								<p>Leverage the brand in your communications to share in the energy and excellence that defines MIT.</p>
+
+						</div>
+					
+					<a href="#anchor" class="scroll-cue scroll-cue-md" tabindex="-1"></a>
+				</div>
+
+				<div class="homepage__body">
+					<span ></span>
+						<div class="homepage__image-paragraph fullbleed-wrapper">
+    	
+
+<div class="media-item media-item--type-image media-item--view-mode-homepage">
+	
+		    <picture>
+                  <source srcset="/sites/default/files/styles/homepage_desktop_1x/public/2023-08/shirts.png?itok=AM_CE43a 1x, /sites/default/files/styles/homepage_desktop_2x/public/2023-08/shirts.png?itok=6RJqIRef 2x" media="all and (min-width: 1080px)" type="image/png" width="1150" height="643"/>
+              <source srcset="/sites/default/files/styles/homepage_tablet_1x/public/2023-08/shirts.png?itok=ZrSMgLLw 1x, /sites/default/files/styles/homepage_tablet_2x/public/2023-08/shirts.png?itok=cqlkpSCB 2x" media="all and (min-width: 768px)" type="image/png" width="768" height="430"/>
+              <source srcset="/sites/default/files/styles/homepage_mobile_1x/public/2023-08/shirts.png?itok=3RrW-oC7 1x, /sites/default/files/styles/homepage_mobile_2x/public/2023-08/shirts.png?itok=l3nrYT6y 2x" type="image/png" width="576" height="322"/>
+                  <img loading="lazy" width="2300" height="1287" src="/sites/default/files/styles/homepage_desktop_2x/public/2023-08/shirts.png?itok=6RJqIRef" alt="Conceptual designs of a black t-shirt that says Massachusetts Institute of Technology in white next to an MIT red hooded sweatshirt with a bright red MIT logo." />
+
+  </picture>
+
+
+
+</div>
+
+
+
+            <div class="image-caption ">
+            	Conceptual designs
+
+        </div>    
+    </div>
+
+	<div class="homepage__text-paragraph">
+    <h2>	Optimized
+</h2>
+    
+    	<p>The MIT logo is recognized around the world. We’ve simplified and modernized it to work more effectively across today’s many communications environments.</p>
+
+
+            <div class="btn btn-primary">
+            	<a href="/logos-marks">See logos &amp; marks</a>
+
+        </div>
+    </div>
+	<div class="homepage__image-paragraph fullbleed-wrapper">
+    	
+
+<div class="media-item media-item--type-image media-item--view-mode-homepage">
+	
+		    <picture>
+                  <source srcset="/sites/default/files/styles/homepage_desktop_1x/public/2023-08/home-image-bag_2_0.png?itok=MIKKkJuG 1x, /sites/default/files/styles/homepage_desktop_2x/public/2023-08/home-image-bag_2_0.png?itok=GIreDXH_ 2x" media="all and (min-width: 1080px)" type="image/png" width="1150" height="647"/>
+              <source srcset="/sites/default/files/styles/homepage_tablet_1x/public/2023-08/home-image-bag_2_0.png?itok=reRazS1m 1x, /sites/default/files/styles/homepage_tablet_2x/public/2023-08/home-image-bag_2_0.png?itok=9n3AxU1R 2x" media="all and (min-width: 768px)" type="image/png" width="768" height="432"/>
+              <source srcset="/sites/default/files/styles/homepage_mobile_1x/public/2023-08/home-image-bag_2_0.png?itok=D6luhDLD 1x, /sites/default/files/styles/homepage_mobile_2x/public/2023-08/home-image-bag_2_0.png?itok=WTLCXoGJ 2x" type="image/png" width="576" height="324"/>
+                  <img loading="lazy" width="2300" height="1294" src="/sites/default/files/styles/homepage_desktop_2x/public/2023-08/home-image-bag_2_0.png?itok=GIreDXH_" alt="Conceptual designs of a sticker, confetti tote bag, and mind and hand button with the MIT logo and branded design elements." />
+
+  </picture>
+
+
+
+</div>
+
+
+
+            <div class="image-caption white">
+            	Conceptual designs
+
+        </div>    
+    </div>
+
+		<div class="spacer" style="margin-bottom: 10px"></div>
+
+	<div class="homepage__text-paragraph">
+    <h2>	Bold
+</h2>
+    
+    	<p>With more vibrant core colors and an exciting secondary palette, our brand system embodies MIT’s vitality and dynamism and provides new opportunities for creative expression.</p>
+
+
+            <div class="btn btn-primary">
+            	<a href="/color">Explore our color palette</a>
+
+        </div>
+    </div>
+	<div class="homepage__image-paragraph fullbleed-wrapper">
+    	
+
+<div class="media-item media-item--type-image media-item--view-mode-homepage">
+	
+		    <picture>
+                  <source srcset="/sites/default/files/styles/homepage_desktop_1x/public/2023-09/3posters-revised2.png?itok=w3CeOwWz 1x, /sites/default/files/styles/homepage_desktop_2x/public/2023-09/3posters-revised2.png?itok=MrT3QT3x 2x" media="all and (min-width: 1080px)" type="image/png" width="1150" height="647"/>
+              <source srcset="/sites/default/files/styles/homepage_tablet_1x/public/2023-09/3posters-revised2.png?itok=bZt_oR_Z 1x, /sites/default/files/styles/homepage_tablet_2x/public/2023-09/3posters-revised2.png?itok=CRI_qFqg 2x" media="all and (min-width: 768px)" type="image/png" width="768" height="432"/>
+              <source srcset="/sites/default/files/styles/homepage_mobile_1x/public/2023-09/3posters-revised2.png?itok=OeS6xYvR 1x, /sites/default/files/styles/homepage_mobile_2x/public/2023-09/3posters-revised2.png?itok=ETRKY_r- 2x" type="image/png" width="576" height="324"/>
+                  <img loading="lazy" width="2300" height="1293" src="/sites/default/files/styles/homepage_desktop_2x/public/2023-09/3posters-revised2.png?itok=MrT3QT3x" alt="Conceptual design of three event posters that showcase the colors and typography from the MIT brand system." />
+
+  </picture>
+
+
+
+</div>
+
+
+
+            <div class="image-caption ">
+            	Conceptual designs
+
+        </div>    
+    </div>
+
+	<div class="homepage__text-paragraph">
+    <h2>	Unified
+</h2>
+    
+    	<p>A simplified brand architecture helps us tell our story more clearly and consistently, making it easier to bring the MIT brand to life.</p>
+
+
+            <div class="btn btn-primary">
+            	<a href="/brand-architecture">Learn about MIT’s brand architecture</a>
+
+        </div>
+    </div>
+	<div class="homepage__image-paragraph fullbleed-wrapper">
+    	
+
+<div class="media-item media-item--type-image media-item--view-mode-homepage">
+	
+		    <picture>
+                  <source srcset="/sites/default/files/styles/homepage_desktop_1x/public/2023-08/MIT-van.png?itok=WBGIvSSF 1x, /sites/default/files/styles/homepage_desktop_2x/public/2023-08/MIT-van.png?itok=AZ162puc 2x" media="all and (min-width: 1080px)" type="image/png" width="1150" height="713"/>
+              <source srcset="/sites/default/files/styles/homepage_tablet_1x/public/2023-08/MIT-van.png?itok=VaN1uW5O 1x, /sites/default/files/styles/homepage_tablet_2x/public/2023-08/MIT-van.png?itok=Y6pjytuM 2x" media="all and (min-width: 768px)" type="image/png" width="768" height="476"/>
+              <source srcset="/sites/default/files/styles/homepage_mobile_1x/public/2023-08/MIT-van.png?itok=VyWVqMAF 1x, /sites/default/files/styles/homepage_mobile_2x/public/2023-08/MIT-van.png?itok=L84A3F81 2x" type="image/png" width="576" height="357"/>
+                  <img loading="lazy" width="2300" height="1426" src="/sites/default/files/styles/homepage_desktop_2x/public/2023-08/MIT-van.png?itok=AZ162puc" alt="Conceptual design of an MIT Facilities van. The van is shown in MIT red, with a large bright red MIT logo and Massachusetts Institute of Technology in smaller white text." />
+
+  </picture>
+
+
+
+</div>
+
+
+
+            <div class="image-caption ">
+            	Conceptual design
+
+        </div>    
+    </div>
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+		</div>
+	</div>
+
+
+					
+				</main>
+					</div>
+
+		<footer class="site-footer">
+							<div class="container-fluid">
+					<div class="row">
+						<div class="col-12">
+							<div class="footer fullbleed-wrapper">
+								<div class="fullbleed-inner">
+									<div class="container">
+										<div class="row footer__row">
+											<div class="col-12 col-md-8 col-lg-5 footer__address">
+																								<a href="https://mit.edu" class="icon fiiter-icon-logo footer__icon-logo"><span class="sr-only">MIT</span></a>
+												
+
+<div id="block-brand-footeraddress" class="block-content-basic_content_block block block-block-content block-block-content8b53db35-406c-486c-b806-1ebcd3968cd5">
+	
+	
+	
+
+			<div class="content">
+				<p>77 Massachusetts Ave, Cambridge, MA<br>
+<a href="mailto:mit-brand@mit.edu">mit-brand@mit.edu</a></p>
+
+		</div>
+	</div>
+<nav role="navigation" aria-labelledby="block-brand-footer-2-menu" id="block-brand-footer-2" class="block block-menu navigation menu--footer">
+            
+  <h2 class="visually-hidden" id="block-brand-footer-2-menu">Footer</h2>
+  
+
+        
+
+	
+			<ul class="footer-nav__list">
+							
+				<li class="footer-nav__item">
+					<a href="https://accessibility.mit.edu/">Accessibility</a>
+				</li>
+							
+				<li class="footer-nav__item">
+					<a href="https://web.mit.edu/privacy/">Privacy Statement</a>
+				</li>
+					</ul>
+	
+
+
+  </nav>
+
+
+											</div>
+											<div class="col-12 col-md-8 col-lg-5 offset-lg-1 footer__contact">
+												
+
+<div id="block-brand-footercontact" class="block-content-basic_content_block block block-block-content block-block-content29085905-c338-484d-8877-64c88f506b2d">
+	
+	
+	
+
+			<div class="content">
+				<h2>Questions about applying the MIT brand?</h2>
+
+<p><a data-entity-substitution="canonical" data-entity-type="node" data-entity-uuid="f83b292d-c614-4b07-8003-80305357217c" href="/contact" title="Contact">Contact us</a></p>
+
+		</div>
+	</div>
+
+
+											</div>
+											<div class="col-12 col-lg-1 footer__social">
+												<nav role="navigation" aria-labelledby="block-brand-socialmedia-menu" id="block-brand-socialmedia" class="block block-menu navigation menu--social-media">
+            
+  <h2 class="visually-hidden" id="block-brand-socialmedia-menu">Social Media</h2>
+  
+
+        
+
+	
+						<ul region="footer_3" class="clearfix nav">
+									
+				<li class="nav-item">
+					
+					<a href="https://twitter.com/mit" class="nav-link nav-link-https--twittercom-mit">Twitter</a>
+
+									</li>
+							
+				<li class="nav-item">
+					
+					<a href="https://www.instagram.com/mit/" class="nav-link nav-link-https--wwwinstagramcom-mit-">Instagram</a>
+
+									</li>
+							
+				<li class="nav-item">
+					
+					<a href="https://www.linkedin.com/school/mit/" class="nav-link nav-link-https--wwwlinkedincom-school-mit-">Linkedin</a>
+
+									</li>
+							
+				<li class="nav-item">
+					
+					<a href="https://www.facebook.com/MITnews" class="nav-link nav-link-https--wwwfacebookcom-mitnews">Facebook</a>
+
+									</li>
+							
+				<li class="nav-item">
+					
+					<a href="https://www.youtube.com/mit" class="nav-link nav-link-https--wwwyoutubecom-mit">YouTube</a>
+
+									</li>
+					</ul>
+	
+
+
+  </nav>
+
+
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+					</footer>
+
+		<svg xmlns="http://www.w3.org/2000/svg" style="width:0;height:0;position:absolute" aria-hidden="true"><defs><symbol id="iconDropdown" viewBox="0 0 20 12"><path fill="currentColor" d="M10 12L0 1.854 1.83 0 10 8.29 18.172 0 20 1.854 10 12z"/></symbol><symbol id="iconChevron" viewBox="0 0 12 20"><path fill="currentColor" d="M12 10L1.854 20 0 18.17 8.29 10 0 1.829 1.854 0 12 10z"/></symbol></defs></svg> 	</div> <!-- /#page -->
+</div> <!-- /#page-wrapper -->
+
+  </div>
+
+		
+		<script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/34","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"statistics":{"data":{"nid":"34"},"url":"\/core\/modules\/statistics\/statistics.php"},"ajaxTrustedUrl":{"\/search":true},"user":{"uid":0,"permissionsHash":"36673d125863bd5e8ea435a4be5f75729d0dedaacd1040d7b432d0c674c9daec"}}</script>
+<script src="/sites/default/files/js/js_G3IA0o9L0-5XHwJe2i5wsd8iE9k8kVtdVwuuYkNFbqI.js?scope=footer&amp;delta=0&amp;language=en&amp;theme=brand&amp;include=eJxFyFEKgDAIANALrTzScGkiiBtqULevvz7fG1zF0fleM5n6qfYxQdg50NoIdAKxOdC2rMfUpWVhaZYeCRTXQtv_eQEPKB_0"></script>
+
+	</body>
+</html>
