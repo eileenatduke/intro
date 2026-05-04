@@ -238,6 +238,7 @@
     width: auto; height: auto;
     object-fit: contain;
   }
+  .unis-cell.is-brown img { max-height: 78%; max-width: 78%; }
   .unis-cell:hover {
     opacity: 1; filter: grayscale(0);
     transform: translateY(-3px);
@@ -711,6 +712,134 @@
   .reveal { opacity: 0; transform: translateY(30px); transition: opacity 0.9s ease, transform 0.9s ease; }
   .reveal.in { opacity: 1; transform: none; }
 
+  /* ---------- Service modal ---------- */
+  .modal-backdrop {
+    position: fixed; inset: 0; z-index: 200;
+    background: rgba(20, 32, 43, 0.55);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    display: none;
+    align-items: center; justify-content: center;
+    padding: 32px 16px;
+    opacity: 0;
+    transition: opacity 0.35s ease;
+  }
+  .modal-backdrop.open { display: flex; opacity: 1; }
+  .modal {
+    position: relative;
+    width: 100%; max-width: 760px;
+    max-height: 90vh; overflow-y: auto;
+    background: var(--paper);
+    border-radius: 8px;
+    border: 1px solid var(--line);
+    box-shadow: 0 40px 80px -20px rgba(20, 32, 43, 0.45);
+    transform: translateY(16px) scale(0.98);
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .modal-backdrop.open .modal { transform: none; }
+  .modal-close {
+    position: absolute; top: 18px; right: 18px;
+    width: 38px; height: 38px;
+    border-radius: 50%;
+    border: 1px solid var(--line);
+    background: var(--paper);
+    display: grid; place-items: center;
+    cursor: pointer;
+    color: var(--ink);
+    font-size: 18px; line-height: 1;
+    transition: background 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    z-index: 2;
+  }
+  .modal-close:hover {
+    background: var(--ink); color: var(--paper);
+    border-color: var(--ink);
+  }
+  .modal-body { padding: 56px 56px 48px; }
+  .modal-eyebrow {
+    display: inline-flex; align-items: center; gap: 14px;
+    font-size: 11px; letter-spacing: 0.32em; text-transform: uppercase;
+    color: var(--gold); font-weight: 500;
+    margin-bottom: 18px;
+  }
+  .modal-eyebrow::before {
+    content: ""; display: inline-block;
+    width: 28px; height: 1px; background: var(--gold);
+  }
+  .modal h3 {
+    font-size: clamp(30px, 4vw, 44px);
+    line-height: 1.1; margin-bottom: 12px;
+    color: var(--ink); font-weight: 400;
+  }
+  .modal h3 em { color: var(--gold); font-style: italic; }
+  .modal .lede {
+    font-size: 17px; line-height: 1.7;
+    color: var(--ink-soft);
+    margin-bottom: 28px;
+  }
+  .modal h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 11px; letter-spacing: 0.28em; text-transform: uppercase;
+    color: var(--ink); font-weight: 500;
+    margin: 28px 0 14px;
+    display: flex; align-items: center; gap: 12px;
+  }
+  .modal h4::before {
+    content: ""; display: inline-block;
+    width: 22px; height: 1px; background: var(--gold);
+  }
+  .modal p {
+    font-size: 15.5px; line-height: 1.75;
+    color: var(--ink-soft);
+    margin-bottom: 14px;
+  }
+  .modal ul { list-style: none; margin: 6px 0 18px; }
+  .modal ul li {
+    position: relative;
+    padding-left: 22px;
+    font-size: 15.5px; line-height: 1.7;
+    color: var(--ink-soft);
+    margin-bottom: 10px;
+  }
+  .modal ul li::before {
+    content: ""; position: absolute;
+    left: 0; top: 12px;
+    width: 10px; height: 1px;
+    background: var(--gold);
+  }
+  .modal-quote {
+    margin: 24px 0;
+    padding: 22px 26px;
+    background: var(--cream);
+    border-left: 2px solid var(--gold);
+    border-radius: 0 4px 4px 0;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic; font-size: 19px; line-height: 1.5;
+    color: var(--ink);
+  }
+  .modal-meta {
+    display: inline-flex; align-items: center; gap: 10px;
+    font-size: 11px; letter-spacing: 0.24em; text-transform: uppercase;
+    color: var(--rose); font-weight: 500;
+    margin-bottom: 16px;
+  }
+  .modal-meta::before {
+    content: ""; width: 6px; height: 6px; border-radius: 50%;
+    background: var(--rose);
+    box-shadow: 0 0 0 3px rgba(201, 140, 121, 0.2);
+  }
+  .modal-cta {
+    margin-top: 32px;
+    padding-top: 28px;
+    border-top: 1px solid var(--line);
+    display: flex; gap: 14px; flex-wrap: wrap;
+  }
+  body.modal-open { overflow: hidden; }
+  @media (max-width: 560px) {
+    .modal-body { padding: 48px 26px 36px; }
+    .modal h3 { font-size: 28px; }
+    .modal-quote { font-size: 17px; padding: 18px 20px; }
+  }
+
   @media (max-width: 980px) {
     .hero-grid { grid-template-columns: 1fr; gap: 60px; }
     .portrait-frame { max-width: 420px; margin: 0 auto; }
@@ -828,7 +957,7 @@
         <div class="unis-cell"><img src="img/mit-official.png" alt="MIT" /></div>
         <div class="unis-cell"><img src="img/63d31e_7bca928c0c4c48878341467b8b4d4e70.png" alt="Stanford" /></div>
         <div class="unis-cell"><img src="img/63d31e_cb8c372d0f834d6bae691ba4c9f3de90.png" alt="Duke" /></div>
-        <div class="unis-cell"><img src="img/63d31e_f8dee3d959204ab699dd576b358959a9.png" alt="Brown" /></div>
+        <div class="unis-cell is-brown"><img src="img/63d31e_f8dee3d959204ab699dd576b358959a9.png" alt="Brown" /></div>
         <div class="unis-cell"><img src="img/63d31e_28e8464381cf452ba7d9d5b9a4c259ce.png" alt="Dartmouth" /></div>
         <div class="unis-cell"><img src="img/63d31e_0893f76a1f3441b9a84aeaaa4b73da51.png" alt="UPenn" /></div>
         <div class="unis-cell"><img src="img/63d31e_3fb241a1ee1646c1a8ba6a6c7df960d0.webp" alt="UCLA" /></div>
@@ -864,7 +993,7 @@
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSdR8RqY_vbzj-fO9N_N5UaOA48QXaSj5QRSEyiiGcc8QQc1Bg/viewform" target="_blank" rel="noopener" class="btn btn-primary">
                 Book Now <span class="arrow">&rarr;</span>
               </a>
-              <a href="#" class="card-link">Learn More</a>
+              <a href="#" class="card-link" data-modal="service-1">Learn More</a>
             </div>
           </div>
         </article>
@@ -886,7 +1015,7 @@
               <a href="https://forms.gle/8HdHByYSFpCebyEi6" target="_blank" rel="noopener" class="btn btn-primary">
                 Book Now <span class="arrow">&rarr;</span>
               </a>
-              <a href="#" class="card-link">Learn More</a>
+              <a href="#" class="card-link" data-modal="service-2">Learn More</a>
             </div>
           </div>
         </article>
@@ -908,7 +1037,7 @@
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSew6_3nHhO1C6GS_62MeNPMiZvuFl3_4FCT3mkkudP7ZkJYaA/viewform" target="_blank" rel="noopener" class="btn btn-primary">
                 Apply Now <span class="arrow">&rarr;</span>
               </a>
-              <a href="#" class="card-link">Learn More</a>
+              <a href="#" class="card-link" data-modal="service-3">Learn More</a>
             </div>
           </div>
         </article>
@@ -1046,6 +1175,118 @@
     </div>
   </section>
 
+  <!-- LEARN MORE MODALS -->
+  <div class="modal-backdrop" id="modal-backdrop" aria-hidden="true">
+
+    <!-- Service 1: Private Call -->
+    <div class="modal" id="service-1" role="dialog" aria-modal="true" aria-labelledby="service-1-title" hidden>
+      <button class="modal-close" aria-label="Close">&times;</button>
+      <div class="modal-body">
+        <span class="modal-eyebrow">Service 01 &middot; Strategy Call</span>
+        <h3 id="service-1-title">Private <em>Call</em> with Eileen</h3>
+        <p class="lede">My favorite hour of the week is jumping on Zoom for a private 1-on-1 with a student who&rsquo;s ready to get serious about their college applications.</p>
+
+        <h4>What we&rsquo;ll cover</h4>
+        <ul>
+          <li>College application strategy and how to position yourself</li>
+          <li>Essay brainstorming and revision</li>
+          <li>Resume and extracurricular/activity enhancement</li>
+          <li>Career and personal-brand building</li>
+          <li>Anything from high school planning through life after college</li>
+        </ul>
+
+        <h4>How it works</h4>
+        <p>One 60-minute Zoom session, fully tailored to where you are right now. By the end, you&rsquo;ll know exactly what your strongest, most competitive application looks like &mdash; and the steps to get there.</p>
+
+        <div class="modal-quote">
+          You&rsquo;ll also walk away with the personal application materials that helped me get into Duke with $150k+ in merit scholarships.
+        </div>
+
+        <h4>Track record</h4>
+        <p>My students have been admitted to Harvard, Princeton, Stanford, MIT, and other top universities &mdash; most of them after just a single private call.</p>
+
+        <div class="modal-cta">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdR8RqY_vbzj-fO9N_N5UaOA48QXaSj5QRSEyiiGcc8QQc1Bg/viewform" target="_blank" rel="noopener" class="btn btn-primary">
+            Book Now <span class="arrow">&rarr;</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Service 2: Full-Year Coaching -->
+    <div class="modal" id="service-2" role="dialog" aria-modal="true" aria-labelledby="service-2-title" hidden>
+      <button class="modal-close" aria-label="Close">&times;</button>
+      <div class="modal-body">
+        <span class="modal-eyebrow">Service 02 &middot; Full-Year Coaching</span>
+        <span class="modal-meta">3 spots remaining &middot; 2026&ndash;27</span>
+        <h3 id="service-2-title">Private Weekly College Coaching for a <em>Full Year</em></h3>
+        <p class="lede">My flagship offering. Hire me as your full-time, personal college coach for one full year. I&rsquo;m taking 3 more students for the 2026&ndash;27 school year.</p>
+
+        <h4>How it works</h4>
+        <p>We meet on 1:1 Zoom calls as often as you need &mdash; typically 1&ndash;2 times per month &mdash; for a full year of focused, strategic guidance through every stage of the college admissions cycle.</p>
+
+        <h4>What&rsquo;s included</h4>
+        <ul>
+          <li>Developing distinctive extracurriculars and a signature passion project</li>
+          <li>Brainstorming powerful essay concepts and workshopping multiple drafts</li>
+          <li>Planning strategic summer experiences (programs, internships, research)</li>
+          <li>Building a consistent narrative across your entire application</li>
+          <li>Access to my network for internships, mentorships, and opportunities</li>
+          <li>Complete editing of personal statements and supplemental essays</li>
+          <li>Application strategy drawn from my own Duke admission ($150k+ merit scholarships)</li>
+          <li>Ongoing partnership and support throughout the full admissions cycle</li>
+        </ul>
+
+        <div class="modal-quote">
+          This is the closest thing to having a college coach in your back pocket every day for a year.
+        </div>
+
+        <div class="modal-cta">
+          <a href="https://forms.gle/8HdHByYSFpCebyEi6" target="_blank" rel="noopener" class="btn btn-primary">
+            Book Now <span class="arrow">&rarr;</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Service 3: 1:1 Application Support -->
+    <div class="modal" id="service-3" role="dialog" aria-modal="true" aria-labelledby="service-3-title" hidden>
+      <button class="modal-close" aria-label="Close">&times;</button>
+      <div class="modal-body">
+        <span class="modal-eyebrow">Service 03 &middot; 1:1 Application Support</span>
+        <span class="modal-meta">2 spots left</span>
+        <h3 id="service-3-title">Apply to <em>Work</em> With Eileen</h3>
+        <p class="lede">1:1 support throughout your entire college application journey &mdash; whether you have 8 months or 4 years of high school left.</p>
+
+        <h4>About me</h4>
+        <p>I&rsquo;m a Duke University student (3% acceptance rate), with multiple Top 20 university acceptances and over $150,000 in merit scholarships under my belt. Now I help students close the gap between where they are and where they want to be.</p>
+
+        <h4>Who this is for</h4>
+        <ul>
+          <li><strong>Freshmen</strong> figuring out which extracurriculars to commit to</li>
+          <li><strong>Sophomores</strong> juggling grades and locking in summer opportunities</li>
+          <li><strong>Juniors</strong> building a college list and learning the language of applications</li>
+          <li><strong>Seniors</strong> finalizing essays and submitting strong applications</li>
+          <li><strong>Last-minute applicants</strong> needing intensive 2-week pre-deadline support</li>
+        </ul>
+
+        <h4>How it works</h4>
+        <p>This is a true 1:1 partnership. We meet regularly, build a long-term plan around your story, and execute together &mdash; from the first extracurricular decision to the final submitted application.</p>
+
+        <div class="modal-quote">
+          Every student, with the right strategy, can get into a top university. My job is to find that strategy with you.
+        </div>
+
+        <div class="modal-cta">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSew6_3nHhO1C6GS_62MeNPMiZvuFl3_4FCT3mkkudP7ZkJYaA/viewform" target="_blank" rel="noopener" class="btn btn-primary">
+            Apply Now <span class="arrow">&rarr;</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
 </main>
 
 <footer>
@@ -1110,6 +1351,39 @@
   });
   navMenu.addEventListener('click', (e) => {
     if (e.target.tagName === 'A') nav.classList.remove('menu-open');
+  });
+
+  const modalBackdrop = document.getElementById('modal-backdrop');
+  const modals = modalBackdrop.querySelectorAll('.modal');
+  const openModal = (id) => {
+    modals.forEach(m => { m.hidden = (m.id !== id); });
+    modalBackdrop.classList.add('open');
+    modalBackdrop.setAttribute('aria-hidden', 'false');
+    document.body.classList.add('modal-open');
+    const active = document.getElementById(id);
+    if (active) {
+      active.scrollTop = 0;
+      const close = active.querySelector('.modal-close');
+      if (close) close.focus({ preventScroll: true });
+    }
+  };
+  const closeModal = () => {
+    modalBackdrop.classList.remove('open');
+    modalBackdrop.setAttribute('aria-hidden', 'true');
+    document.body.classList.remove('modal-open');
+    modals.forEach(m => { m.hidden = true; });
+  };
+  document.querySelectorAll('[data-modal]').forEach(trigger => {
+    trigger.addEventListener('click', (e) => {
+      e.preventDefault();
+      openModal(trigger.dataset.modal);
+    });
+  });
+  modalBackdrop.addEventListener('click', (e) => {
+    if (e.target === modalBackdrop || e.target.closest('.modal-close')) closeModal();
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && modalBackdrop.classList.contains('open')) closeModal();
   });
 </script>
 
