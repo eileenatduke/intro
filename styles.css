@@ -172,8 +172,11 @@
   }
   .portrait-frame .badge .num {
     display: block;
-    font-size: 30px; letter-spacing: 0; margin-bottom: 4px;
+    font-size: 30px; letter-spacing: 0; margin-bottom: -2px;
     color: var(--gold-soft);
+  }
+  .portrait-frame .badge span:not(.num) {
+    transform: translateY(-8px);
   }
 
   .scroll-cue {
@@ -228,6 +231,7 @@
     object-fit: contain;
   }
   .unis-cell.is-brown img { max-height: 78%; max-width: 78%; }
+  .unis-cell.is-harvard img { max-height: 82%; max-width: 82%; }
   .unis-cell:hover {
     opacity: 1; filter: grayscale(0);
     transform: translateY(-3px);
