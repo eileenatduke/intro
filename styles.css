@@ -681,7 +681,6 @@
     border-radius: 50%;
     border: 1px solid rgba(253, 251, 246, 0.2);
     display: grid; place-items: center;
-    font-size: 13px; letter-spacing: 0.05em;
     color: rgba(253, 251, 246, 0.85);
     transition: all 0.4s ease;
   }
@@ -689,6 +688,7 @@
     background: var(--gold); border-color: var(--gold);
     color: var(--ink); transform: translateY(-2px);
   }
+  .socials svg { width: 18px; height: 18px; display: block; }
   .footer-bottom {
     border-top: 1px solid rgba(253, 251, 246, 0.12);
     padding-top: 30px;
