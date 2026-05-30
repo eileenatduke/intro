@@ -1,13 +1,15 @@
   :root {
-    --ink: #14202b;
-    --ink-soft: #4a5360;
-    --cream: #f7f2ea;
-    --cream-deep: #efe6d6;
-    --paper: #fdfbf6;
-    --gold: #b08a4f;
-    --gold-soft: #d4b985;
-    --rose: #c98c79;
-    --line: rgba(20, 32, 43, 0.12);
+    /* Navy-on-soft-white palette. (Accent vars keep their old --gold/--rose
+       names to avoid churn, but now hold blue/coral values.) */
+    --ink: #15243f;        /* deep navy — headings & body text */
+    --ink-soft: #4c5a73;   /* muted navy-grey — secondary text */
+    --cream: #f3f7fc;      /* soft cool white — main background */
+    --cream-deep: #e6eef7; /* slightly deeper, for image placeholders */
+    --paper: #fbfcff;      /* near-white panel surface */
+    --gold: #2f63a6;       /* primary blue accent */
+    --gold-soft: #9fc0e6;  /* light blue — accents on dark surfaces */
+    --rose: #cf7a5a;       /* warm coral — urgency/secondary accent */
+    --line: rgba(21, 36, 63, 0.12);
   }
 
   * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -38,7 +40,7 @@
     position: fixed; top: 0; left: 0; right: 0; z-index: 100;
     backdrop-filter: blur(18px) saturate(140%);
     -webkit-backdrop-filter: blur(18px) saturate(140%);
-    background: rgba(247, 242, 234, 0.82);
+    background: rgba(243, 247, 252, 0.82);
     border-bottom: 1px solid var(--line);
     transition: padding 0.4s ease, box-shadow 0.4s ease;
   }
@@ -76,8 +78,8 @@
   .hero::before {
     content: ""; position: absolute; inset: 0;
     background:
-      radial-gradient(ellipse at 20% 20%, rgba(212, 185, 133, 0.22), transparent 60%),
-      radial-gradient(ellipse at 80% 70%, rgba(201, 140, 121, 0.16), transparent 55%);
+      radial-gradient(ellipse at 20% 20%, rgba(159, 192, 230, 0.22), transparent 60%),
+      radial-gradient(ellipse at 80% 70%, rgba(207, 122, 90, 0.16), transparent 55%);
     pointer-events: none;
   }
   .hero-grid {
@@ -100,9 +102,9 @@
   .hero h1 {
     font-size: clamp(56px, 8vw, 112px);
     line-height: 0.96; margin-bottom: 32px;
-    color: var(--ink); font-weight: 400;
+    color: var(--ink); font-weight: 500;
   }
-  .hero h1 em { font-style: italic; color: var(--gold); font-weight: 400; }
+  .hero h1 em { font-style: normal; color: inherit; font-weight: inherit; }
   .hero-lead {
     font-size: 19px; line-height: 1.7;
     color: var(--ink-soft); max-width: 540px;
@@ -122,7 +124,7 @@
   .btn-primary:hover {
     background: var(--gold); color: var(--paper);
     transform: translateY(-2px);
-    box-shadow: 0 14px 30px -12px rgba(176, 138, 79, 0.55);
+    box-shadow: 0 14px 30px -12px rgba(47, 99, 166, 0.55);
   }
   .btn-ghost { background: transparent; color: var(--ink); border-color: var(--ink); }
   .btn-ghost:hover { background: var(--ink); color: var(--paper); transform: translateY(-2px); }
@@ -144,7 +146,7 @@
     background: var(--cream-deep);
     box-shadow:
       0 50px 90px -30px rgba(20, 32, 43, 0.35),
-      0 30px 60px -25px rgba(176, 138, 79, 0.25);
+      0 30px 60px -25px rgba(47, 99, 166, 0.25);
   }
   .portrait-frame .photo img {
     width: 100%; height: 100%; object-fit: cover;
@@ -247,9 +249,14 @@
   }
   .section-head h2 {
     font-size: clamp(44px, 6vw, 76px);
-    line-height: 1.05; margin-bottom: 24px; font-weight: 400;
+    line-height: 1.05; margin-bottom: 24px; font-weight: 500;
   }
-  .section-head h2 em { color: var(--gold); font-style: italic; }
+  .section-head h2 em { color: inherit; font-style: normal; }
+  .section-head h2::after {
+    content: ""; display: block;
+    width: 56px; height: 2px; margin: 26px auto 0;
+    background: var(--gold);
+  }
   .section-head p {
     max-width: 620px; margin: 0 auto;
     color: var(--ink-soft); font-size: 17px;
@@ -280,7 +287,7 @@
     transform: translateY(-10px);
     box-shadow:
       0 30px 60px -25px rgba(20, 32, 43, 0.18),
-      0 20px 40px -25px rgba(176, 138, 79, 0.18);
+      0 20px 40px -25px rgba(47, 99, 166, 0.18);
     border-color: transparent;
   }
   .card-image {
@@ -315,8 +322,8 @@
   .card.featured .card-eyebrow,
   .card.featured .card-meta { color: var(--gold-soft); }
   .card.featured h3 { color: var(--paper); }
-  .card.featured p { color: rgba(253, 251, 246, 0.78); }
-  .card.featured .card-link { color: var(--gold-soft); border-color: rgba(212, 185, 133, 0.4); }
+  .card.featured p { color: rgba(251, 252, 255, 0.78); }
+  .card.featured .card-link { color: var(--gold-soft); border-color: rgba(159, 192, 230, 0.4); }
   .card.featured .card-link:hover { color: var(--paper); border-color: var(--paper); }
 
   .card-eyebrow {
@@ -330,7 +337,7 @@
   .card h3 {
     font-size: 30px; line-height: 1.15;
     margin-bottom: 18px;
-    color: var(--ink); font-weight: 400;
+    color: var(--ink); font-weight: 500;
   }
   .card p {
     color: var(--ink-soft);
@@ -346,12 +353,12 @@
   .card-meta::before {
     content: ""; width: 6px; height: 6px; border-radius: 50%;
     background: var(--rose); display: inline-block;
-    box-shadow: 0 0 0 3px rgba(201, 140, 121, 0.2);
+    box-shadow: 0 0 0 3px rgba(207, 122, 90, 0.2);
     animation: pulse 2s ease-in-out infinite;
   }
   @keyframes pulse {
-    0%, 100% { box-shadow: 0 0 0 3px rgba(201, 140, 121, 0.2); }
-    50% { box-shadow: 0 0 0 6px rgba(201, 140, 121, 0.05); }
+    0%, 100% { box-shadow: 0 0 0 3px rgba(207, 122, 90, 0.2); }
+    50% { box-shadow: 0 0 0 6px rgba(207, 122, 90, 0.05); }
   }
   .card-actions { display: flex; flex-direction: column; gap: 12px; }
   .card-actions .btn { justify-content: center; }
@@ -370,7 +377,7 @@
     content: ""; position: absolute;
     top: -100px; right: -100px; width: 500px; height: 500px;
     border-radius: 50%;
-    background: radial-gradient(circle, rgba(176, 138, 79, 0.12), transparent 70%);
+    background: radial-gradient(circle, rgba(47, 99, 166, 0.12), transparent 70%);
     pointer-events: none;
   }
   .about-grid {
@@ -425,17 +432,20 @@
   }
   .about-copy h2 {
     font-size: clamp(44px, 5.4vw, 68px);
-    margin-bottom: 36px;
+    margin-bottom: 36px; font-weight: 500;
   }
-  .about-copy h2 em { color: var(--gold); font-style: italic; }
+  .about-copy h2 em { color: inherit; font-style: normal; }
+  .about-copy h2::after {
+    content: ""; display: block;
+    width: 56px; height: 2px; margin: 26px 0 0;
+    background: var(--gold);
+  }
   .about-copy p {
     font-size: 17px; color: var(--ink-soft);
     line-height: 1.85; margin-bottom: 24px;
   }
   .about-copy p strong {
-    color: var(--ink); font-weight: 500; font-style: italic;
-    background: linear-gradient(180deg, transparent 60%, rgba(212, 185, 133, 0.45) 60%);
-    padding: 0 4px;
+    color: var(--gold); font-weight: 600; font-style: normal;
   }
   .pull-quote {
     margin: 50px 0;
@@ -482,18 +492,18 @@
     content: "❝"; position: absolute;
     top: 20px; right: 40px;
     font-family: 'Cormorant Garamond', serif;
-    font-size: 120px; color: rgba(212, 185, 133, 0.15);
+    font-size: 120px; color: rgba(159, 192, 230, 0.15);
     line-height: 1;
   }
   .speaker-strip .eyebrow { color: var(--gold-soft); }
   .speaker-strip .eyebrow::before { background: var(--gold-soft); }
   .speaker-strip h3 {
     font-size: 36px; margin-bottom: 18px;
-    color: var(--paper); font-weight: 400;
+    color: var(--paper); font-weight: 500;
   }
-  .speaker-strip h3 em { color: var(--gold-soft); font-style: italic; }
+  .speaker-strip h3 em { color: inherit; font-style: normal; }
   .speaker-strip p {
-    color: rgba(253, 251, 246, 0.78);
+    color: rgba(251, 252, 255, 0.78);
     font-size: 16px;
   }
 
@@ -531,7 +541,7 @@
   .email-link:hover {
     background: var(--gold);
     transform: translateY(-2px);
-    box-shadow: 0 14px 30px -12px rgba(176, 138, 79, 0.5);
+    box-shadow: 0 14px 30px -12px rgba(47, 99, 166, 0.5);
   }
   .email-link .icon { font-size: 18px; }
 
@@ -547,7 +557,7 @@
     bottom: -120px; left: -120px;
     width: 460px; height: 460px;
     border-radius: 50%;
-    background: radial-gradient(circle, rgba(201, 140, 121, 0.14), transparent 70%);
+    background: radial-gradient(circle, rgba(207, 122, 90, 0.14), transparent 70%);
     pointer-events: none;
   }
   .resources-tag {
@@ -651,7 +661,7 @@
   /* ---------- Footer ---------- */
   footer {
     background: var(--ink);
-    color: rgba(253, 251, 246, 0.7);
+    color: rgba(251, 252, 255, 0.7);
     padding: 80px 0 40px;
     position: relative;
   }
@@ -684,9 +694,9 @@
   .socials a {
     width: 42px; height: 42px;
     border-radius: 50%;
-    border: 1px solid rgba(253, 251, 246, 0.2);
+    border: 1px solid rgba(251, 252, 255, 0.2);
     display: grid; place-items: center;
-    color: rgba(253, 251, 246, 0.85);
+    color: rgba(251, 252, 255, 0.85);
     transition: all 0.4s ease;
   }
   .socials a:hover {
@@ -695,11 +705,11 @@
   }
   .socials svg { width: 18px; height: 18px; display: block; }
   .footer-bottom {
-    border-top: 1px solid rgba(253, 251, 246, 0.12);
+    border-top: 1px solid rgba(251, 252, 255, 0.12);
     padding-top: 30px;
     display: flex; justify-content: space-between; align-items: center;
     font-size: 12px; letter-spacing: 0.1em;
-    color: rgba(253, 251, 246, 0.5);
+    color: rgba(251, 252, 255, 0.5);
     flex-wrap: wrap; gap: 16px;
   }
 
@@ -762,9 +772,9 @@
   .modal h3 {
     font-size: clamp(30px, 4vw, 44px);
     line-height: 1.1; margin-bottom: 12px;
-    color: var(--ink); font-weight: 400;
+    color: var(--ink); font-weight: 500;
   }
-  .modal h3 em { color: var(--gold); font-style: italic; }
+  .modal h3 em { color: inherit; font-style: normal; }
   .modal .lede {
     font-size: 17px; line-height: 1.7;
     color: var(--ink-soft);
@@ -800,7 +810,7 @@
     width: 9px; height: 9px;
     background: var(--gold);
     transform: rotate(45deg);
-    box-shadow: 0 0 0 3px rgba(176, 138, 79, 0.18);
+    box-shadow: 0 0 0 3px rgba(47, 99, 166, 0.18);
   }
   .modal-quote {
     margin: 24px 0;
@@ -821,7 +831,7 @@
   .modal-meta::before {
     content: ""; width: 6px; height: 6px; border-radius: 50%;
     background: var(--rose);
-    box-shadow: 0 0 0 3px rgba(201, 140, 121, 0.2);
+    box-shadow: 0 0 0 3px rgba(207, 122, 90, 0.2);
   }
   .modal-cta {
     margin-top: 32px;
@@ -859,7 +869,7 @@
       flex-direction: column;
       gap: 0;
       padding: 16px 32px 24px;
-      background: rgba(247, 242, 234, 0.96);
+      background: rgba(243, 247, 252, 0.96);
       backdrop-filter: blur(18px) saturate(140%);
       -webkit-backdrop-filter: blur(18px) saturate(140%);
       border-bottom: 1px solid var(--line);
