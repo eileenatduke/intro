@@ -696,14 +696,30 @@
     border-radius: 50%;
     border: 1px solid rgba(251, 252, 255, 0.2);
     display: grid; place-items: center;
-    color: rgba(251, 252, 255, 0.85);
+    /* Settled (steady) state: gray */
+    color: rgba(251, 252, 255, 0.55);
     transition: all 0.4s ease;
+    /* On load, animate from each icon's brand color down to gray */
+    animation: socialDesaturate 2.4s ease-out;
   }
+  /* Brand colors the icons start from before settling on gray */
+  .socials a[aria-label="Instagram"] { --brand: #e4405f; }
+  .socials a[aria-label="TikTok"]    { --brand: #25f4ee; }
+  .socials a[aria-label="YouTube"]   { --brand: #ff0000; }
   .socials a:hover {
     background: var(--gold); border-color: var(--gold);
     color: var(--ink); transform: translateY(-2px);
   }
   .socials svg { width: 18px; height: 18px; display: block; }
+
+  @keyframes socialDesaturate {
+    0%, 25% { color: var(--brand, rgba(251, 252, 255, 0.55)); }
+    100%    { color: rgba(251, 252, 255, 0.55); }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .socials a { animation: none; }
+  }
   .footer-bottom {
     border-top: 1px solid rgba(251, 252, 255, 0.12);
     padding-top: 30px;
