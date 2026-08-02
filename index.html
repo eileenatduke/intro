@@ -390,6 +390,7 @@
     });
   }, { threshold: 0.12, rootMargin: '0px 0px -60px 0px' });
   document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+  document.querySelectorAll('.socials').forEach(el => io.observe(el));
 
   const nav = document.querySelector('header.nav');
   window.addEventListener('scroll', () => {

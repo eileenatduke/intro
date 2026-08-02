@@ -699,7 +699,11 @@
     /* Settled (steady) state: gray */
     color: rgba(251, 252, 255, 0.55);
     transition: all 0.4s ease;
-    /* On load, animate from each icon's brand color down to gray */
+  }
+  /* Play the color->gray animation once the footer scrolls into view
+     (the observer adds .in), so it's actually seen rather than finishing
+     off-screen on page load. */
+  .socials.in a {
     animation: socialDesaturate 2.4s ease-out;
   }
   /* Brand colors the icons start from before settling on gray */
@@ -718,7 +722,7 @@
   }
 
   @media (prefers-reduced-motion: reduce) {
-    .socials a { animation: none; }
+    .socials.in a { animation: none; }
   }
   .footer-bottom {
     border-top: 1px solid rgba(251, 252, 255, 0.12);
